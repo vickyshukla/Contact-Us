@@ -1,0 +1,104 @@
+:root {
+    --color-white: #fff;
+    --bg-color: #000B0E;
+    --primary-1: #0d9b9c;
+    --primary-2: #059b9a;
+    --primary-3: #0d9b9c;
+    --primary-3-25: rgba(13, 155, 156, 0.25);
+    --primary-4: rgba(13, 155, 156, 0.15);
+    --primary-5: #001a21;
+    --primary-6: #0a4958;
+    --large-desktop-l: 1400px;
+    --desktop-u: 1399px;
+    --desktop-l: 1025px;
+    --small-desktop-u: 1024px;
+    --small-desktop-l: 769px;
+    --tablet-u: 768px;
+    --tablet-l: 481px;
+    --mobile-u: 480px;
+    --mobile-l: 320px;
+    --font-mont: 'Montserrat', sans-serif;
+    --font-lucida: 'Roboto Mono', monospace;
+    --fsm96: 96px;
+    --fsm45:45px;
+    --fsm32: 32px;
+    --fsm36: 36px;
+    --fsm24: 24px; 
+    --fsm20: 20px;
+    --fsm18: 18px;
+    --fsm16: 1rem;
+    --fsm14: 14px;
+    --fsl16: 16px;
+    --fsl14: 14px;
+    
+}
+
+
+  
+.contact-box{
+    padding: 0 90px;
+    padding-bottom: 40px;
+}
+
+.flexbox {
+    display: flex;
+    margin-top: 36px;
+    gap: 0 5rem;
+    width: 100%;
+}
+
+.whi-col{
+    color: var(--color-white);
+    font-family: var(--font-mont);
+}
+.fnt-45{
+  font-size: var(--fsm45);
+}
+
+.fnt-20{
+    font-size: var(--fsm20);
+    font-weight: 600;
+    line-height: 24px;
+}
+.fnt-18{
+    font-size: var(--fsm18);
+    background-color: #000b0e;
+}
+
+.fnt-16{
+    font-size: var(--fsm16);
+    line-height: 20px;
+}
+.chat, .contact_no {
+    color: #059b9a;
+}
+
+.rhs img {
+    margin-right: 16px;
+   
+}
+.bg-color-f{
+    background-color: var(--bg-color);
+}
+
+.faq_box .lhs {
+    width: 64%;
+}
+
+.faq-container{
+    width: 100%;
+}
+.accordion-body{
+    font-family: var(--font-mont);
+}
+.accordion-button{
+    background-color: var(--bg-color);
+    color: var(--color-white);
+    font-family: var(--font-mont);
+    font-size: var(--fsm18);
+}
+.accordion-button:not(.collapsed){
+    background-color: var(--bg-color);
+    color: var(--color-white);
+}
+
