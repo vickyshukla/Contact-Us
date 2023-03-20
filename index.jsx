@@ -36,13 +36,10 @@ export default function ContactFaq() {
                     </div>
                 </div>
             </div>
-            <div className="flexbox faq_box">
-                <div className="lhs">
-                        <p className="fnt-20 whi-col">FAQ</p>
-                        <h2 className="fnt-45 whi-col">
-                            Frequently Asked Questions.
+            <div className="faq_box">
+                        <h2 className="fnt-40 whi-col">
+                        FAQs
                         </h2>
-                </div>
                 <div className="faq-container whi-col">
                 <div className="accordion accordion-flush" id="accordionFlushExample">
                     <div className="accordion-item">
